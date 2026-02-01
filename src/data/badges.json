@@ -1,10 +1,10 @@
 [
   {
-    "name": "AWS Certified Cloud Practitioner",
-    "description": "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.",
-    "image": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
-    "issuedOn": "2025-09-07T00:00:00Z",
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/NnlsK05jSVBTdU5xV01HNjRCaHdUdz09",
+    "name": "AWS Certified Solutions Architect – Professional",
+    "description": "Earners of this certification have an extensive understanding of designing technical strategies to accomplish specific business goals. They demonstrated the ability to balance best practices and trade-offs based on business context. Badge owners are able to design solutions across multiple platforms and providers.",
+    "image": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png",
+    "issuedOn": "2026-02-01T00:00:00Z",
+    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/ZllZdlgzM2FyKzRQd0x5am5kYUR4Zz09",
     "issuer": "Amazon Web Services Training and Certification"
   },
   {
@@ -29,6 +29,14 @@
     "image": "https://images.credly.com/images/b9feab85-1a43-4f6c-99a5-631b88d5461b/image.png",
     "issuedOn": "2025-12-26T00:00:00Z",
     "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/TGo2NFl0TzdHQnNUU251c0NSWVQxdz09",
+    "issuer": "Amazon Web Services Training and Certification"
+  },
+  {
+    "name": "AWS Certified Cloud Practitioner",
+    "description": "Earners of this certification have a fundamental understanding of IT services and their uses in the AWS Cloud. They demonstrated cloud fluency and foundational AWS knowledge. Badge owners are able to identify essential AWS services necessary to set up AWS-focused projects.",
+    "image": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
+    "issuedOn": "2025-09-07T00:00:00Z",
+    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/NnlsK05jSVBTdU5xV01HNjRCaHdUdz09",
     "issuer": "Amazon Web Services Training and Certification"
   },
   {
