@@ -11,11 +11,11 @@ export default function Purpose() {
         <div className={styles.purposeLine}></div>
         <div className={styles.purposeTexts}>
           <p className={styles.purposeJa}>
-            問い続ける姿勢を通じて、誠実な対話と深い思考の文化を育てる。
+            複雑さの中に構造を見出し、その作用を明らかにした上で妥当性を問い直し、共有可能な形へ整える。
           </p>
           <p className={styles.purposeEn}>
-            Foster a culture of sincere dialogue and deep thinking through an
-            enduring attitude of questioning.
+            Find structure in complexity, reveal the effects, question the
+            validity, and shape it into a shareable form.
           </p>
         </div>
       </div>
