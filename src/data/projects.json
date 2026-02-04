@@ -19,6 +19,29 @@
   },
   {
     "id": "2",
+    "title": "exam-sim",
+    "titleJa": "試験シミュレータ",
+    "description": "A learning exam simulator that allows users to upload questions in JSON format and record progress and accuracy. It supports synchronization across multiple devices.",
+    "descriptionJa": "学習用の模擬試験ツールで、JSON形式で問題をアップロードすると、進捗と正解率を記録できます。複数端末の同期に対応しています。",
+    "image": "",
+    "githubUrl": "https://github.com/Canale0107/exam-sim",
+    "technologies": [
+        "AWS",
+        "Terraform",
+        "Amplify",
+        "API Gateway",
+        "Lambda",
+        "DynamoDB",
+        "S3",
+        "Cognito",
+        "Next.js",
+        "React",
+        "Cloudflare"
+      ],
+    "demoUrl": "https://exam-sim.kanare.dev"
+  },
+  {
+    "id": "3",
     "title": "tf-practice",
     "titleJa": "AWS/Terraform練習",
     "description": "A serverless CRUD application created using Terraform.",
@@ -43,7 +66,7 @@
     ]
   },
   {
-    "id": "3",
+    "id": "4",
     "title": "aws-daily-cost-monitor",
     "titleJa": "AWS日次コスト通知",
     "description": "A daily cost monitoring application that sends email notifications of AWS costs using Terraform.",
@@ -61,7 +84,39 @@
     ]
   },
   {
-    "id": "4",
+    "id": "5",
+    "title": "aws-ses",
+    "titleJa": "AWS SES",
+    "description": "A repository that sets up AWS SES and Cloudflare DNS to send emails from a custom domain using Terraform.",
+    "descriptionJa": "Terraformを使用してAWS SESとCloudflare DNSを設定し、独自ドメインからメールを送信できるようにするためのリポジトリです。",
+    "image": "",
+    "githubUrl": "https://github.com/Canale0107/aws-ses",
+    "technologies": [
+      "Terraform",
+      "AWS",
+      "Cloudflare",
+      "DNS",
+      "SES",
+      "Email"
+    ]
+  },
+  {
+    "id": "6",
+    "title": "book-info-chat",
+    "titleJa": "書籍情報チャット",
+    "description": "A chat application that allows users to search for books and get information about them.",
+    "descriptionJa": "CiNii APIを用いて書籍情報を検索して、その情報をチャット形式で取得できるアプリケーションです。",
+    "image": "",
+    "githubUrl": "https://github.com/Canale0107/book-info-chat",
+    "technologies": [
+      "OpenAI API",
+      "Tool Calling",
+      "Fast API",
+      "Python"
+    ]
+  },
+  {
+    "id": "7",
     "title": "shopping-app-sample",
     "titleJa": "ショッピングアプリサンプル",
     "description": "A sample shopping site full-stack app with search, cart, membership, and basic order history integrated.",
