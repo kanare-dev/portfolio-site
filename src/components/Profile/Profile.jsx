@@ -4,20 +4,15 @@ import classNames from "classnames";
 import ProfileImage from "./ProfileImage";
 import styles from "./Profile.module.css";
 
-import { FaBuilding, FaSitemap, FaLocationDot, FaGift } from "react-icons/fa6";
+import { FaLaptopCode, FaLocationDot, FaGift } from "react-icons/fa6";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
-import { MdPushPin } from "react-icons/md"; /* 部署アイコンの代替 */
 import NoteIcon from "@/components/Icon/NoteIcon";
 import ZennIcon from "@/components/Icon/ZennIcon";
 import HatenaBlogIcon from "@/components/Icon/HatenaBlogIcon";
 
 const items = [
   {
-    icon: FaBuilding,
-    content: "Fujitsu",
-  },
-  {
-    icon: FaSitemap,
+    icon: FaLaptopCode,
     content: "Cloud Engineer",
   },
   {
