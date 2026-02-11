@@ -38,7 +38,7 @@ const socialLinks = [
   },
   {
     icon: FaXTwitter,
-    url: "https://x.com/Canale_tech",
+    url: "https://x.com/kanare_io",
     label: "X",
   },
   {
