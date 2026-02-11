@@ -43,7 +43,7 @@ const socialLinks = [
   },
   {
     icon: ZennIcon,
-    url: "https://zenn.dev/canale",
+    url: "https://zenn.dev/kanare",
     label: "Zenn",
   },
   {
