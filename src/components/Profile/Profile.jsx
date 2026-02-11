@@ -4,7 +4,7 @@ import classNames from "classnames";
 import ProfileImage from "./ProfileImage";
 import styles from "./Profile.module.css";
 
-import { FaLaptopCode, FaLocationDot, FaGift } from "react-icons/fa6";
+import { FaLaptopCode, FaLocationDot, FaGift, FaEnvelope } from "react-icons/fa6";
 import { FaGithub, FaLinkedin, FaXTwitter } from "react-icons/fa6";
 import NoteIcon from "@/components/Icon/NoteIcon";
 import ZennIcon from "@/components/Icon/ZennIcon";
@@ -22,6 +22,10 @@ const items = [
   {
     icon: FaGift,
     content: "2001.1.7",
+  },
+  {
+    icon: FaEnvelope,
+    content: "me@kanare.dev",
   },
 ];
 
