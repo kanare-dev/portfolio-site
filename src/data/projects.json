@@ -6,7 +6,7 @@
     "description": "My portfolio site.",
     "descriptionJa": "私の自己紹介ページです。（本ページ）",
     "image": "",
-    "githubUrl": "https://github.com/Canale0107/portfolio-site",
+    "githubUrl": "https://github.com/kanare-dev/portfolio-site",
     "demoUrl": "https://kanare.dev",
     "technologies": [
       "React",
@@ -24,7 +24,7 @@
     "description": "A learning exam simulator that allows users to upload questions in JSON format and record progress and accuracy. It supports synchronization across multiple devices.",
     "descriptionJa": "学習用の模擬試験ツールで、JSON形式で問題をアップロードすると、進捗と正解率を記録できます。複数端末の同期に対応しています。",
     "image": "",
-    "githubUrl": "https://github.com/Canale0107/exam-sim",
+    "githubUrl": "https://github.com/kanare-dev/exam-sim",
     "technologies": [
         "AWS",
         "Terraform",
@@ -47,7 +47,7 @@
     "description": "A serverless CRUD application created using Terraform.",
     "descriptionJa": "Terraformを使ってAWS上に作成したサーバレスなCRUDアプリケーションです。",
     "image": "",
-    "githubUrl": "https://github.com/Canale0107/tf-practice",
+    "githubUrl": "https://github.com/kanare-dev/tf-practice",
     "demoUrl": "https://note-app.kanare.dev",
     "technologies": [
       "React",
@@ -72,7 +72,7 @@
     "description": "A daily cost monitoring application that sends email notifications of AWS costs using Terraform.",
     "descriptionJa": "Terraformを使ってAWS上に構築した、AWSの日次コストをメールで通知するアプリケーションです。",
     "image": "",
-    "githubUrl": "https://github.com/Canale0107/aws-daily-cost-monitor",
+    "githubUrl": "https://github.com/kanare-dev/aws-daily-cost-monitor",
     "technologies": [
       "Terraform",
       "AWS",
@@ -90,7 +90,7 @@
     "description": "A repository that sets up AWS SES and Cloudflare DNS to send emails from a custom domain using Terraform.",
     "descriptionJa": "Terraformを使用してAWS SESとCloudflare DNSを設定し、独自ドメインからメールを送信できるようにするためのリポジトリです。",
     "image": "",
-    "githubUrl": "https://github.com/Canale0107/aws-ses",
+    "githubUrl": "https://github.com/kanare-dev/aws-ses",
     "technologies": [
       "Terraform",
       "AWS",
@@ -107,7 +107,7 @@
     "description": "A chat application that allows users to search for books and get information about them.",
     "descriptionJa": "CiNii APIを用いて書籍情報を検索して、その情報をチャット形式で取得できるアプリケーションです。",
     "image": "",
-    "githubUrl": "https://github.com/Canale0107/book-info-chat",
+    "githubUrl": "https://github.com/kanare-dev/book-info-chat",
     "technologies": [
       "OpenAI API",
       "Tool Calling",
@@ -122,7 +122,7 @@
     "description": "A sample shopping site full-stack app with search, cart, membership, and basic order history integrated.",
     "descriptionJa": "商品検索・カート・会員管理・注文履歴などの基本機能を一通り体験できるショッピングサイトのサンプルです。",
     "image": "",
-    "githubUrl": "https://github.com/Canale0107/shopping-app-sample",
+    "githubUrl": "https://github.com/kanare-dev/shopping-app-sample",
     "technologies": [
       "Next.js",
       "React",

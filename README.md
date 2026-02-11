@@ -1,6 +1,6 @@
 # Canale's portfolio-site
 
-![CI](https://github.com/Canale0107/portfolio-site/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/kanare-dev/portfolio-site/actions/workflows/ci.yml/badge.svg)
 ![Vercel](https://vercelbadge.vercel.app/api/Canale0107/portfolio-site)
 
 ## 📁 ディレクトリ構成（概要）
@@ -139,7 +139,7 @@ npm run preview
 
 ### 資格データの更新方法
 
-新しい資格を追加する場合は、[`src/data/certifications.json`](https://github.com/Canale0107/portfolio-site/blob/main/src/data/certifications.json) を編集します。
+新しい資格を追加する場合は、[`src/data/certifications.json`](https://github.com/kanare-dev/portfolio-site/blob/main/src/data/certifications.json) を編集します。
 
 1. **既存のカテゴリに追加する場合**：
 
@@ -184,7 +184,7 @@ npm run preview
 
 1. **badge-urls.json にバッジURLを追加**
 
-   [`src/data/badge-urls.json`](https://github.com/Canale0107/portfolio-site/blob/main/src/data/badge-urls.json) を開き、ファイル末尾（最後の `]` の前）に新しいバッジのURLを追加します。
+   [`src/data/badge-urls.json`](https://github.com/kanare-dev/portfolio-site/blob/main/src/data/badge-urls.json) を開き、ファイル末尾（最後の `]` の前）に新しいバッジのURLを追加します。
 
    - 形式：`{ "url": "バッジの共有URL", "note": "バッジ名" }`
    - `url` は **OpenBadge v2** の共有 URL を指定（例：`https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/...`）

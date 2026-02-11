@@ -28,12 +28,12 @@ const items = [
 const socialLinks = [
   {
     icon: FaGithub,
-    url: "https://github.com/Canale0107",
+    url: "https://github.com/kanare-dev",
     label: "GitHub",
   },
   {
     icon: FaLinkedin,
-    url: "https://www.linkedin.com/in/kanare-kodera/",
+    url: "https://www.linkedin.com/in/kanare/",
     label: "LinkedIn",
   },
   {

@@ -13,7 +13,7 @@ export default function Footer() {
       </div>
       <div className={styles.right}>
         <a
-          href="https://github.com/Canale0107/portfolio-site"
+          href="https://github.com/kanare-dev/portfolio-site"
           target="_blank"
           rel="noopener noreferrer"
           className={styles.link}
