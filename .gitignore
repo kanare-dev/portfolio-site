@@ -9,3 +9,6 @@
 
 # ログファイルなど
 npm-debug.log*
+
+# バッジデータキャッシュ（Vite plugin が自動生成）
+/.cache/
