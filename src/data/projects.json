@@ -45,29 +45,6 @@
     ]
   },
   {
-    "title": "exam-sim",
-    "titleJa": "試験シミュレータ",
-    "description": "A learning exam simulator that allows users to upload questions in JSON format and record progress and accuracy. It supports synchronization across multiple devices.",
-    "descriptionJa": "学習用の模擬試験ツールで、JSON形式で問題をアップロードすると、進捗と正解率を記録できます。複数端末の同期に対応しています。",
-    "image": "",
-    "images": [],
-    "githubUrl": "https://github.com/kanare-dev/exam-sim",
-    "technologies": [
-        "AWS",
-        "Terraform",
-        "Amplify",
-        "API Gateway",
-        "Lambda",
-        "DynamoDB",
-        "S3",
-        "Cognito",
-        "Next.js",
-        "React",
-        "Cloudflare"
-      ],
-    "demoUrl": "https://exam-sim.kanare.dev"
-  },
-  {
     "title": "tf-practice",
     "titleJa": "AWS/Terraform練習",
     "description": "A serverless CRUD application created using Terraform.",
@@ -126,6 +103,46 @@
       "SES",
       "Email"
     ]
+  },
+  {
+    "title": "style-transformer",
+    "titleJa": "文体変換器",
+    "description": "A style transfer application that allows users to change the style of text using AI.",
+    "descriptionJa": "AIを用いて文章の文体を変えるアプリケーションです。全日本AIハッカソンにて3時間で作成。",
+    "image": "",
+    "images": [],
+    "githubUrl": "https://github.com/forest-2/style-transformer",
+    "technologies": [
+      "Next.js",
+      "Next.js App Router",
+      "React",
+      "TypeScript",
+      "OpenAI API"
+    ],
+    "demoUrl": "https://style-transformer.vercel.app"
+  },
+  {
+    "title": "exam-sim",
+    "titleJa": "試験シミュレータ",
+    "description": "A learning exam simulator that allows users to upload questions in JSON format and record progress and accuracy. It supports synchronization across multiple devices.",
+    "descriptionJa": "学習用の模擬試験ツールで、JSON形式で問題をアップロードすると、進捗と正解率を記録できます。複数端末の同期に対応しています。",
+    "image": "",
+    "images": [],
+    "githubUrl": "https://github.com/kanare-dev/exam-sim",
+    "technologies": [
+        "AWS",
+        "Terraform",
+        "Amplify",
+        "API Gateway",
+        "Lambda",
+        "DynamoDB",
+        "S3",
+        "Cognito",
+        "Next.js",
+        "React",
+        "Cloudflare"
+      ],
+    "demoUrl": "https://exam-sim.kanare.dev"
   },
   {
     "title": "book-info-chat",
