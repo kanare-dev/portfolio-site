@@ -49,8 +49,13 @@
     "titleJa": "AWS/Terraform練習",
     "description": "A serverless CRUD application created using Terraform.",
     "descriptionJa": "Terraformを使ってAWS上に作成したサーバレスなCRUDアプリケーションです。",
-    "image": "",
-    "images": [],
+    "image": "https://github.com/kanare-dev/tf-practice/blob/main/diagrams/drawio/overview.drawio.svg",
+    "images": [
+      "https://github.com/kanare-dev/tf-practice/blob/main/diagrams/drawio/overview.drawio.svg",
+      "https://github.com/kanare-dev/tf-practice/blob/main/diagrams/drawio/cicd.drawio.svg",
+      "https://github.com/kanare-dev/tf-practice/blob/main/assets/top.png",
+      "https://github.com/kanare-dev/tf-practice/blob/main/assets/login.png"
+    ],
     "githubUrl": "https://github.com/kanare-dev/tf-practice",
     "demoUrl": "https://note-app.kanare.dev",
     "technologies": [
@@ -74,8 +79,10 @@
     "titleJa": "AWS日次コスト通知",
     "description": "A daily cost monitoring application that sends email notifications of AWS costs using Terraform.",
     "descriptionJa": "Terraformを使ってAWS上に構築した、AWSの日次コストをメールで通知するアプリケーションです。",
-    "image": "",
-    "images": [],
+    "image": "https://github.com/kanare-dev/aws-daily-cost-monitor/blob/main/diagrams/overview.drawio.svg",
+    "images": [
+      "https://github.com/kanare-dev/aws-daily-cost-monitor/blob/main/diagrams/overview.drawio.svg"
+    ],
     "githubUrl": "https://github.com/kanare-dev/aws-daily-cost-monitor",
     "technologies": [
       "Terraform",
@@ -109,8 +116,10 @@
     "titleJa": "文体変換器",
     "description": "A style transfer application that allows users to change the style of text using AI.",
     "descriptionJa": "AIを用いて文章の文体を変えるアプリケーションです。全日本AIハッカソンにて3時間で作成。",
-    "image": "",
-    "images": [],
+    "image": "https://github.com/forest-2/style-transformer/blob/main/assets/screenshot.png",
+    "images": [
+      "https://github.com/forest-2/style-transformer/blob/main/assets/screenshot.png"
+    ],
     "githubUrl": "https://github.com/forest-2/style-transformer",
     "technologies": [
       "Next.js",
