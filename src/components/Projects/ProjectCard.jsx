@@ -10,6 +10,7 @@ export default function ProjectCard({
   githubUrl,
   demoUrl,
   technologies,
+  onOpenModal,
 }) {
   const [imageError, setImageError] = useState(false);
 
@@ -30,10 +31,20 @@ export default function ProjectCard({
     return null;
   };
 
-  const ogpImageUrl = image || getOGPImageUrl(githubUrl);
+  const toRawUrl = (url) => {
+    try {
+      const u = new URL(url);
+      if (u.hostname === "github.com") {
+        return `https://raw.githubusercontent.com${u.pathname.replace("/blob/", "/")}`;
+      }
+    } catch {}
+    return url;
+  };
+
+  const ogpImageUrl = (image ? toRawUrl(image) : null) || getOGPImageUrl(githubUrl);
 
   return (
-    <article className={styles.projectCard}>
+    <article className={styles.projectCard} onClick={onOpenModal} style={{ cursor: "pointer" }}>
       {/* プロジェクト画像 */}
       {ogpImageUrl && !imageError && (
         <div className={styles.imageContainer}>
@@ -71,7 +82,7 @@ export default function ProjectCard({
         )}
 
         {/* リンクボタン */}
-        <div className={styles.projectLinks}>
+        <div className={styles.projectLinks} onClick={(e) => e.stopPropagation()}>
           {githubUrl && (
             <a
               href={githubUrl}

@@ -1,11 +1,11 @@
 [
   {
-    "id": "1",
     "title": "portfolio-site",
     "titleJa": "ポートフォリオサイト",
     "description": "My portfolio site.",
     "descriptionJa": "私の自己紹介ページです。（本ページ）",
     "image": "",
+    "images": [],
     "githubUrl": "https://github.com/kanare-dev/portfolio-site",
     "demoUrl": "https://kanare.dev",
     "technologies": [
@@ -18,35 +18,44 @@
     ]
   },
   {
-    "id": "2",
-    "title": "exam-sim",
-    "titleJa": "試験シミュレータ",
-    "description": "A learning exam simulator that allows users to upload questions in JSON format and record progress and accuracy. It supports synchronization across multiple devices.",
-    "descriptionJa": "学習用の模擬試験ツールで、JSON形式で問題をアップロードすると、進捗と正解率を記録できます。複数端末の同期に対応しています。",
-    "image": "",
-    "githubUrl": "https://github.com/kanare-dev/exam-sim",
+    "title": "homelab",
+    "titleJa": "自宅サーバー",
+    "description": "My home server environment. I manage virtual machines with Proxmox and manage infrastructure with Terraform and Ansible. I monitor with Prometheus and Grafana.",
+    "descriptionJa": "私の自宅サーバー環境です。Proxmoxで仮想マシンを管理し、TerraformとAnsibleでインフラを管理しています。PrometheusとGrafanaで監視を行っています。",
+    "image": "https://github.com/kanare-dev/homelab/blob/main/diagrams/drawio/architecture.drawio.svg",
+    "images": [
+      "https://github.com/kanare-dev/homelab/blob/main/diagrams/drawio/architecture.drawio.svg",
+      "https://github.com/kanare-dev/homelab/blob/main/docs/screenshots/proxmox-vms-running.png",
+      "https://github.com/kanare-dev/homelab/blob/main/docs/screenshots/grafana-node-exporter-dashboard.png"
+    ],
+    "githubUrl": "https://github.com/kanare-dev/homelab",
     "technologies": [
-        "AWS",
-        "Terraform",
-        "Amplify",
-        "API Gateway",
-        "Lambda",
-        "DynamoDB",
-        "S3",
-        "Cognito",
-        "Next.js",
-        "React",
-        "Cloudflare"
-      ],
-    "demoUrl": "https://exam-sim.kanare.dev"
+      "Proxmox",
+      "Terraform",
+      "Ansible",
+      "Docker Compose",
+      "Prometheus",
+      "Grafana",
+      "Homepage",
+      "CoreDNS",
+      "AdGuard Home",
+      "Unbound",
+      "Caddy",
+      "Tailscale"
+    ]
   },
   {
-    "id": "3",
     "title": "tf-practice",
     "titleJa": "AWS/Terraform練習",
     "description": "A serverless CRUD application created using Terraform.",
     "descriptionJa": "Terraformを使ってAWS上に作成したサーバレスなCRUDアプリケーションです。",
-    "image": "",
+    "image": "https://github.com/kanare-dev/tf-practice/blob/main/diagrams/drawio/overview.drawio.svg",
+    "images": [
+      "https://github.com/kanare-dev/tf-practice/blob/main/diagrams/drawio/overview.drawio.svg",
+      "https://github.com/kanare-dev/tf-practice/blob/main/diagrams/drawio/cicd.drawio.svg",
+      "https://github.com/kanare-dev/tf-practice/blob/main/assets/top.png",
+      "https://github.com/kanare-dev/tf-practice/blob/main/assets/login.png"
+    ],
     "githubUrl": "https://github.com/kanare-dev/tf-practice",
     "demoUrl": "https://note-app.kanare.dev",
     "technologies": [
@@ -66,12 +75,14 @@
     ]
   },
   {
-    "id": "4",
     "title": "aws-daily-cost-monitor",
     "titleJa": "AWS日次コスト通知",
     "description": "A daily cost monitoring application that sends email notifications of AWS costs using Terraform.",
     "descriptionJa": "Terraformを使ってAWS上に構築した、AWSの日次コストをメールで通知するアプリケーションです。",
-    "image": "",
+    "image": "https://github.com/kanare-dev/aws-daily-cost-monitor/blob/main/diagrams/overview.drawio.svg",
+    "images": [
+      "https://github.com/kanare-dev/aws-daily-cost-monitor/blob/main/diagrams/overview.drawio.svg"
+    ],
     "githubUrl": "https://github.com/kanare-dev/aws-daily-cost-monitor",
     "technologies": [
       "Terraform",
@@ -84,12 +95,12 @@
     ]
   },
   {
-    "id": "5",
     "title": "aws-ses",
     "titleJa": "AWS SES",
     "description": "A repository that sets up AWS SES and Cloudflare DNS to send emails from a custom domain using Terraform.",
     "descriptionJa": "Terraformを使用してAWS SESとCloudflare DNSを設定し、独自ドメインからメールを送信できるようにするためのリポジトリです。",
     "image": "",
+    "images": [],
     "githubUrl": "https://github.com/kanare-dev/aws-ses",
     "technologies": [
       "Terraform",
@@ -101,12 +112,54 @@
     ]
   },
   {
-    "id": "6",
+    "title": "style-transformer",
+    "titleJa": "文体変換器",
+    "description": "A style transfer application that allows users to change the style of text using AI.",
+    "descriptionJa": "AIを用いて文章の文体を変えるアプリケーションです。全日本AIハッカソンにて3時間で作成。",
+    "image": "https://github.com/forest-2/style-transformer/blob/main/assets/screenshot.png",
+    "images": [
+      "https://github.com/forest-2/style-transformer/blob/main/assets/screenshot.png"
+    ],
+    "githubUrl": "https://github.com/forest-2/style-transformer",
+    "technologies": [
+      "Next.js",
+      "Next.js App Router",
+      "React",
+      "TypeScript",
+      "OpenAI API"
+    ],
+    "demoUrl": "https://style-transformer.vercel.app"
+  },
+  {
+    "title": "exam-sim",
+    "titleJa": "試験シミュレータ",
+    "description": "A learning exam simulator that allows users to upload questions in JSON format and record progress and accuracy. It supports synchronization across multiple devices.",
+    "descriptionJa": "学習用の模擬試験ツールで、JSON形式で問題をアップロードすると、進捗と正解率を記録できます。複数端末の同期に対応しています。",
+    "image": "",
+    "images": [],
+    "githubUrl": "https://github.com/kanare-dev/exam-sim",
+    "technologies": [
+        "AWS",
+        "Terraform",
+        "Amplify",
+        "API Gateway",
+        "Lambda",
+        "DynamoDB",
+        "S3",
+        "Cognito",
+        "Next.js",
+        "React",
+        "Cloudflare"
+      ],
+    "demoUrl": "https://exam-sim.kanare.dev"
+  },
+  {
     "title": "book-info-chat",
     "titleJa": "書籍情報チャット",
     "description": "A chat application that allows users to search for books and get information about them.",
     "descriptionJa": "CiNii APIを用いて書籍情報を検索して、その情報をチャット形式で取得できるアプリケーションです。",
     "image": "",
+    "images": [],
     "githubUrl": "https://github.com/kanare-dev/book-info-chat",
     "technologies": [
       "OpenAI API",
@@ -116,12 +169,12 @@
     ]
   },
   {
-    "id": "7",
     "title": "shopping-app-sample",
     "titleJa": "ショッピングアプリサンプル",
     "description": "A sample shopping site full-stack app with search, cart, membership, and basic order history integrated.",
     "descriptionJa": "商品検索・カート・会員管理・注文履歴などの基本機能を一通り体験できるショッピングサイトのサンプルです。",
     "image": "",
+    "images": [],
     "githubUrl": "https://github.com/kanare-dev/shopping-app-sample",
     "technologies": [
       "Next.js",
