@@ -6,7 +6,19 @@ export default function ProjectModal({ project, onClose }) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(1);
 
-  const images = project.images ?? [];
+  const toRawUrl = (url) => {
+    try {
+      const u = new URL(url);
+      if (u.hostname === "github.com") {
+        // /owner/repo/blob/branch/path → raw.githubusercontent.com/owner/repo/branch/path
+        const raw = u.pathname.replace("/blob/", "/");
+        return `https://raw.githubusercontent.com${raw}`;
+      }
+    } catch {}
+    return url;
+  };
+
+  const images = (project.images ?? []).map(toRawUrl);
   const hasImages = images.length > 0;
 
   const prev = useCallback(() => {
