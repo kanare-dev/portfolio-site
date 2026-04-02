@@ -33,7 +33,6 @@
       "Proxmox",
       "Terraform",
       "Ansible",
-      "Docker",
       "Docker Compose",
       "Prometheus",
       "Grafana",
@@ -41,7 +40,6 @@
       "CoreDNS",
       "AdGuard Home",
       "Unbound",
-      "Let's Encrypt",
       "Caddy",
       "Tailscale"
     ]
