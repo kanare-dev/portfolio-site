@@ -31,7 +31,17 @@ export default function ProjectCard({
     return null;
   };
 
-  const ogpImageUrl = image || getOGPImageUrl(githubUrl);
+  const toRawUrl = (url) => {
+    try {
+      const u = new URL(url);
+      if (u.hostname === "github.com") {
+        return `https://raw.githubusercontent.com${u.pathname.replace("/blob/", "/")}`;
+      }
+    } catch {}
+    return url;
+  };
+
+  const ogpImageUrl = (image ? toRawUrl(image) : null) || getOGPImageUrl(githubUrl);
 
   return (
     <article className={styles.projectCard} onClick={onOpenModal} style={{ cursor: "pointer" }}>

@@ -22,7 +22,7 @@
     "titleJa": "自宅サーバー",
     "description": "My home server environment. I manage virtual machines with Proxmox and manage infrastructure with Terraform and Ansible. I monitor with Prometheus and Grafana.",
     "descriptionJa": "私の自宅サーバー環境です。Proxmoxで仮想マシンを管理し、TerraformとAnsibleでインフラを管理しています。PrometheusとGrafanaで監視を行っています。",
-    "image": "",
+    "image": "https://github.com/kanare-dev/homelab/blob/main/diagrams/drawio/architecture.drawio.svg",
     "images": [
       "https://github.com/kanare-dev/homelab/blob/main/diagrams/drawio/architecture.drawio.svg",
       "https://github.com/kanare-dev/homelab/blob/main/docs/screenshots/proxmox-vms-running.png",
