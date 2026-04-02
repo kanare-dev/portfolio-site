@@ -1,6 +1,5 @@
 [
   {
-    "id": "1",
     "title": "portfolio-site",
     "titleJa": "ポートフォリオサイト",
     "description": "My portfolio site.",
@@ -19,7 +18,26 @@
     ]
   },
   {
-    "id": "2",
+    "title": "homelab",
+    "titleJa": "ホームラボ",
+    "description": "My home lab environment.",
+    "descriptionJa": "私のホームラボ環境です。",
+    "image": "",
+    "images": [
+      "https://github.com/kanare-dev/homelab/blob/main/diagrams/drawio/architecture.drawio.svg",
+      "https://github.com/kanare-dev/homelab/blob/main/docs/screenshots/proxmox-vms-running.png",
+      "https://github.com/kanare-dev/homelab/blob/main/docs/screenshots/grafana-node-exporter-dashboard.png"
+    ],
+    "githubUrl": "https://github.com/kanare-dev/homelab",
+    "technologies": [
+      "Proxmox",
+      "Terraform",
+      "Ansible",
+      "Docker",
+      "Docker Compose"
+    ]
+  },
+  {
     "title": "exam-sim",
     "titleJa": "試験シミュレータ",
     "description": "A learning exam simulator that allows users to upload questions in JSON format and record progress and accuracy. It supports synchronization across multiple devices.",
@@ -43,7 +61,6 @@
     "demoUrl": "https://exam-sim.kanare.dev"
   },
   {
-    "id": "3",
     "title": "tf-practice",
     "titleJa": "AWS/Terraform練習",
     "description": "A serverless CRUD application created using Terraform.",
@@ -69,7 +86,6 @@
     ]
   },
   {
-    "id": "4",
     "title": "aws-daily-cost-monitor",
     "titleJa": "AWS日次コスト通知",
     "description": "A daily cost monitoring application that sends email notifications of AWS costs using Terraform.",
@@ -88,7 +104,6 @@
     ]
   },
   {
-    "id": "5",
     "title": "aws-ses",
     "titleJa": "AWS SES",
     "description": "A repository that sets up AWS SES and Cloudflare DNS to send emails from a custom domain using Terraform.",
@@ -106,7 +121,6 @@
     ]
   },
   {
-    "id": "6",
     "title": "book-info-chat",
     "titleJa": "書籍情報チャット",
     "description": "A chat application that allows users to search for books and get information about them.",
@@ -122,7 +136,6 @@
     ]
   },
   {
-    "id": "7",
     "title": "shopping-app-sample",
     "titleJa": "ショッピングアプリサンプル",
     "description": "A sample shopping site full-stack app with search, cart, membership, and basic order history integrated.",

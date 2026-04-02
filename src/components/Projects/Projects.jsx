@@ -20,7 +20,7 @@ export default function Projects() {
       <div className={styles.projectsGrid}>
         {projects.map((project) => (
           <ProjectCard
-            key={project.id}
+            key={project.title}
             {...project}
             onOpenModal={() => setSelectedProject(project)}
           />
