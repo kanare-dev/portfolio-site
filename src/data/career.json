@@ -10,6 +10,7 @@
     "technologies": ["AWS", "Linux", "IaC", "Java"],
     "projects": [
       {
+        "date": { "start": "2025.4" },
         "title": "車載機器向けパッケージ配信基盤",
         "descriptions": [
           "インフラSEとして、車載機器向けパッケージ配信基盤を支えるAWS環境について、方式設計〜詳細設計〜IaC (CloudFormation) 実装を担当。",

@@ -52,7 +52,14 @@ export default function CareerItem({ date, title, descriptions = [], technologie
           <ul className={styles.projects}>
             {projects.map((project, i) => (
               <li key={i} className={styles.project}>
-                <p className={styles.projectTitle}>{project.title}</p>
+                <div className={styles.projectHeader}>
+                  <p className={styles.projectTitle}>{project.title}</p>
+                  {project.date && (
+                    <span className={styles.projectDate}>
+                      {project.date.start}{project.date.end ? ` ~ ${project.date.end}` : project.date.start ? " ~ 現在" : ""}
+                    </span>
+                  )}
+                </div>
                 {project.descriptions?.map((desc, j) => (
                   <p key={j} className={styles.description}>
                     {desc}
