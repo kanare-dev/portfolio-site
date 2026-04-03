@@ -1,22 +1,13 @@
-"use client";
-
-import React, { useState, useEffect } from "react";
+import React from "react";
 import certifications from "@/data/certifications.json";
 import skills from "@/data/skills.json";
+import badges from "@/data/badges.json";
 import CertificationList from "./CertificationList";
 import BadgeList from "./BadgeList";
 import SkillList from "./SkillList";
 import levelDefStyles from "./SkillsLevelDefinitions.module.css";
 
 export default function Skills() {
-  const [badges, setBadges] = useState([]);
-
-  useEffect(() => {
-    fetch("/api/badges")
-      .then((res) => res.json())
-      .then((data) => setBadges(data))
-      .catch(() => setBadges([]));
-  }, []);
 
   return (
     <section
