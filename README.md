@@ -178,18 +178,38 @@ npm start
 
 ### バッジデータの更新方法
 
-新しいバッジを追加する場合は、[`src/data/badge-urls.json`](https://github.com/kanare-dev/portfolio-site/blob/main/src/data/badge-urls.json) を編集します。
+新しいバッジを追加する場合は、以下の手順で行います。
 
-- 形式：`{ "url": "バッジの共有URL", "note": "バッジ名" }`
-- `url` は **OpenBadge v2** の共有 URL を指定
-- `note` はバッジ名（任意、フォールバック表示用）
+1. [`src/data/badge-urls.json`](https://github.com/kanare-dev/portfolio-site/blob/main/src/data/badge-urls.json) にバッジURLを追加
 
-バッジデータはサーバー起動時に `/api/badges` Route が自動取得・キャッシュします。`.cache/badges.json` にキャッシュされ、`badge-urls.json` が変わらなければ再取得しません。
+   - 形式：`{ "url": "バッジの共有URL", "note": "バッジ名" }`
+   - `url` は **OpenBadge v2** の共有 URL を指定
+   - `note` はバッジ名（任意、フォールバック表示用）
+
+2. スクリプトを実行して `src/data/badges.json` を生成
+
+   ```bash
+   node scripts/fetch-badges.js
+   ```
+
+3. 生成されたファイルをコミット・プッシュ
+
+   ```bash
+   git add src/data/badges.json src/data/badge-urls.json
+   git commit -m "chore: update badge data"
+   git push
+   ```
+
+#### ファイルの役割
+
+- **`src/data/badge-urls.json`**: 手動で編集するファイル（URLとnoteのみ）
+- **`src/data/badges.json`**: スクリプトで生成されるファイル（完全なバッジデータ）。git管理対象
 
 #### 注意事項
 
 - JSON の構文エラーに注意（カンマの位置、引用符など）
 - `url` は **OpenBadge v2** の正しい共有 URL である必要があります
+- `badges.json` は自動生成されるため、直接編集しないでください
 
 ## 📌 補足事項
 
