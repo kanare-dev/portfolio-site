@@ -10,13 +10,22 @@
     "technologies": ["AWS", "Linux", "IaC", "Java"],
     "projects": [
       {
-        "date": { "start": "2025.4" },
+        "date": { "start": "2025.8", "end": "2026.3"},
         "title": "車載機器向けパッケージ配信基盤",
         "descriptions": [
           "インフラSEとして、車載機器向けパッケージ配信基盤を支えるAWS環境について、方式設計〜詳細設計〜IaC (CloudFormation) 実装を担当。",
           "並行してAWSを学習し、SAA/SOA/DVA/SAP資格を取得。"
         ],
-        "technologies": ["AWS", "CloudFormation", "Java"]
+        "technologies": [
+          "AWS", "CloudFormation", "IaC", "GitHub Copilot", 
+          "VPC", "ALB", "API Gateway", "NAT Gateway", "Client VPN", "CloudFront", 
+          "EC2", "Lambda", "EventBridge",
+          "Aurora",
+          "S3", "EFS", "EBS",
+          "Security Hub", "GuardDuty", "Inspector", "KMS", "ACM", "IAM", "WAF", "Config",
+          "Config", "SNS", "Systems Manager", "CloudWatch", "CloudTrail", 
+          "Azure DevOps", "Git", "RHEL"
+        ]
       }
     ]
   },
