@@ -1,12 +1,11 @@
-// src/contexts/SectionContext.jsx
+"use client";
+
 import React, { createContext, useContext, useState, useEffect } from "react";
 
 const SectionContext = createContext();
 
-// TOPセクション内のサブセクションID
 const TOP_SUBSECTIONS = ["purpose", "values", "about-me"];
 
-// セクションIDを正規化（TOPセクション内のサブセクションは"top"に変換）
 const normalizeSectionId = (sectionId) => {
   if (!sectionId || TOP_SUBSECTIONS.includes(sectionId)) {
     return "top";
@@ -15,14 +14,13 @@ const normalizeSectionId = (sectionId) => {
 };
 
 export function SectionProvider({ children }) {
-  const [activeSection, setActiveSection] = useState(() => {
-    // URLハッシュから初期セクションを取得
-    const hash = window.location.hash.replace("#", "");
-    return normalizeSectionId(hash);
-  });
+  const [activeSection, setActiveSection] = useState("top");
 
   useEffect(() => {
-    // URLハッシュの変更を監視（ブラウザの戻る/進むボタン対応）
+    // クライアントサイドのみ: URLハッシュから初期セクションを取得
+    const hash = window.location.hash.replace("#", "");
+    setActiveSection(normalizeSectionId(hash));
+
     const handleHashChange = () => {
       const hash = window.location.hash.replace("#", "");
       setActiveSection(normalizeSectionId(hash));
@@ -46,4 +44,3 @@ export function SectionProvider({ children }) {
 }
 
 export const useSection = () => useContext(SectionContext);
-

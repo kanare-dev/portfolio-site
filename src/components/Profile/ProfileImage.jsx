@@ -13,22 +13,22 @@ export default function ProfileImage() {
     const linkWebp = document.createElement("link");
     linkWebp.rel = "preload";
     linkWebp.as = "image";
-    linkWebp.href = webp;
+    linkWebp.href = webp.src;
     linkWebp.type = "image/webp";
     document.head.appendChild(linkWebp);
 
     const linkJpg = document.createElement("link");
     linkJpg.rel = "preload";
     linkJpg.as = "image";
-    linkJpg.href = jpg;
+    linkJpg.href = jpg.src;
     document.head.appendChild(linkJpg);
   }, [webp, jpg]);
 
   return (
     <picture>
-      <source srcSet={webp} type="image/webp" />
+      <source srcSet={webp.src} type="image/webp" />
       <img
-        src={jpg}
+        src={jpg.src}
         alt="小寺奏怜のプロフィール写真"
         className={`${styles.profileImage} ${
           isDark ? styles.darkProfileImage : ""

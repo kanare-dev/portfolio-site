@@ -1,8 +1,9 @@
 # 依存ライブラリ
 /node_modules/
 
-# Viteのビルド成果物（本番用）
-/dist/
+# Next.jsのビルド成果物
+/.next/
+/out/
 
 # macOS特有
 .DS_Store
@@ -10,5 +11,5 @@
 # ログファイルなど
 npm-debug.log*
 
-# バッジデータキャッシュ（Vite plugin が自動生成）
+# バッジデータキャッシュ
 /.cache/

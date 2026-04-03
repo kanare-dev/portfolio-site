@@ -1,13 +1,14 @@
 import React from "react";
 import certifications from "@/data/certifications.json";
 import skills from "@/data/skills.json";
-import badges from "virtual:badges";
+import badges from "@/data/badges.json";
 import CertificationList from "./CertificationList";
 import BadgeList from "./BadgeList";
 import SkillList from "./SkillList";
 import levelDefStyles from "./SkillsLevelDefinitions.module.css";
 
 export default function Skills() {
+
   return (
     <section
       className="profile-page__section profile-page__wide-section"
