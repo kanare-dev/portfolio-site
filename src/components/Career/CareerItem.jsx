@@ -1,6 +1,6 @@
 import styles from "./Career.module.css";
 
-export default function CareerItem({ date, title, descriptions = [], technologies = [] }) {
+export default function CareerItem({ date, title, descriptions = [], technologies = [], projects = [] }) {
   // dateがオブジェクト形式（期間）か文字列形式（単一時点）かを判定
   const renderDate = (date) => {
     if (typeof date === "string") {
@@ -46,6 +46,30 @@ export default function CareerItem({ date, title, descriptions = [], technologie
               </span>
             ))}
           </div>
+        )}
+
+        {projects.length > 0 && (
+          <ul className={styles.projects}>
+            {projects.map((project, i) => (
+              <li key={i} className={styles.project}>
+                <p className={styles.projectTitle}>{project.title}</p>
+                {project.descriptions?.map((desc, j) => (
+                  <p key={j} className={styles.description}>
+                    {desc}
+                  </p>
+                ))}
+                {project.technologies?.length > 0 && (
+                  <div className={styles.technologies}>
+                    {project.technologies.map((tech, j) => (
+                      <span key={j} className={styles.techTag}>
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                )}
+              </li>
+            ))}
+          </ul>
         )}
       </div>
     </li>
