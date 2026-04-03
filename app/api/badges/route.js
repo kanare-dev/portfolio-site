@@ -29,9 +29,13 @@ async function readCache() {
 }
 
 async function writeCache(data, urlsHash) {
-  await mkdir(CACHE_DIR, { recursive: true });
-  await writeFile(CACHE_FILE, JSON.stringify(data, null, 2), "utf-8");
-  await writeFile(META_FILE, JSON.stringify({ hash: urlsHash }), "utf-8");
+  try {
+    await mkdir(CACHE_DIR, { recursive: true });
+    await writeFile(CACHE_FILE, JSON.stringify(data, null, 2), "utf-8");
+    await writeFile(META_FILE, JSON.stringify({ hash: urlsHash }), "utf-8");
+  } catch {
+    // 読み取り専用ファイルシステム（Vercel等）ではキャッシュ書き込みをスキップ
+  }
 }
 
 export async function GET() {
@@ -53,10 +57,6 @@ export async function GET() {
 
     return Response.json(data);
   } catch (err) {
-    const cached = await readCache();
-    if (cached) {
-      return Response.json(cached);
-    }
     console.error("[badges API]", err);
     return Response.json([]);
   }
