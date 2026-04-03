@@ -1,5 +1,5 @@
-// src/react/App.jsx
-import React from "react";
+"use client";
+
 import { AnimatePresence, motion } from "framer-motion";
 import Navbar from "@/components/Navbar/Navbar";
 import Profile from "@/components/Profile/Profile";
@@ -10,10 +10,8 @@ import Research from "@/components/Research/Research";
 import Projects from "@/components/Projects/Projects";
 import Interests from "@/components/Interests/Interests";
 import Footer from "@/components/Footer/Footer";
-
 import { useSection } from "@/contexts/SectionContext";
 
-// セクション切り替えアニメーションの設定
 const sectionVariants = {
   initial: {
     opacity: 0,
@@ -24,7 +22,7 @@ const sectionVariants = {
     y: 0,
     transition: {
       duration: 0.4,
-      ease: [0.25, 0.1, 0.25, 1], // スムーズなイージング
+      ease: [0.25, 0.1, 0.25, 1],
     },
   },
   exit: {
@@ -37,19 +35,15 @@ const sectionVariants = {
   },
 };
 
-export default function App() {
+export default function HomePage() {
   const { activeSection } = useSection();
 
-  // セクションIDのマッピング
-  // TOPセクションは "top" で、Profile + Overview を含む
   const renderSection = () => {
     switch (activeSection) {
       case "top":
       case "purpose":
       case "values":
       case "about-me":
-        // TOPセクション（Profile + Overview）を表示
-        // purpose, values, about-me は Overview 内のサブセクションなので、TOPセクション全体を表示
         return (
           <>
             <Profile />
