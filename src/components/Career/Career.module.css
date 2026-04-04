@@ -162,7 +162,6 @@
 .project {
   padding: var(--space-sm) var(--space-md);
   background: var(--color-bg-surface);
-  border-left: 3px solid var(--color-accent);
   border-radius: 0 0.375rem 0.375rem 0;
 }
 
