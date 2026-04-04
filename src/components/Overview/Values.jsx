@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Overview.module.css"
+import styles from "./Values.module.css"
 import values from "@/data/values.json";
 
 export default function Values() {

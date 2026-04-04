@@ -1,0 +1,36 @@
+/* ========================================
+  パーパス
+======================================== */
+/* パーパス横の線とパーパスの内容*/
+.purpose {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  /* パーパス左の線 */
+  .purposeLine {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.25rem;
+    height: 100%;
+    background: linear-gradient(to bottom, var(--color-accent-hover), #f5a623);
+    border-radius: 0.125rem;
+  }
+  
+  /* パーパスの内容　*/
+  .purposeTexts {
+    margin-left: var(--space-md);
+    display: flex;
+    flex-direction: column;
+  }
+  .purposeJa {
+    font-weight: 700;
+    font-size: var(--font-size-lg);
+  }
+  
+  .purposeEn {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-sm);
+    font-style: italic;
+  }

@@ -1,4 +1,4 @@
-import styles from "./Overview.module.css";
+import styles from "./Purpose.module.css";
 
 export default function Purpose() {
   return (
