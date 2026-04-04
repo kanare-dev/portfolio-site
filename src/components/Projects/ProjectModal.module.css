@@ -244,6 +244,7 @@
 }
 
 .demoLink:hover {
+  color: var(--color-bg-surface);
   background: var(--color-accent-hover);
   border-color: var(--color-accent-hover);
   box-shadow: var(--shadow-light);
