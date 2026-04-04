@@ -8,7 +8,7 @@ export default function Footer() {
       <div className={styles.left}>
         <a href="https://kanare.dev" className={styles.link}>
           <FaRegCopyright className={styles.icon} />
-          <span>2025 Kanare Kodera</span>
+          <span>{new Date().getFullYear()} Kanare Kodera</span>
         </a>
       </div>
       <div className={styles.right}>
