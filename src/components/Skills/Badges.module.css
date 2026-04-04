@@ -10,7 +10,7 @@
 }
 
 .badgeExternalLink {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: 600;
   color: var(--color-text-primary);
   background: var(--color-bg-surface);
@@ -198,7 +198,7 @@
 
 /* バッジ名 */
 .badgeName {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: 600;
   color: var(--color-text-primary);
   margin: 0;
@@ -211,7 +211,7 @@
 /* 900px未満はフォントサイズを調整 */
 @media (max-width: 899px) {
   .badgeName {
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-sm);
   }
 }
 
@@ -221,7 +221,7 @@
 
 /* バッジ認定機関 */
 .badgeIssuer {
-  font-size: var(--font-size-xsmall);
+  font-size: var(--font-size-xs);
   font-weight: 500;
   color: var(--color-text-secondary);
   margin: 0;
@@ -235,7 +235,7 @@
 .badgeDate {
   display: inline-flex;
   align-items: center;
-  font-size: var(--font-size-xsmall);
+  font-size: var(--font-size-xs);
   font-weight: 500;
   color: var(--color-text-secondary);
   padding: 0.25rem 0.5rem;

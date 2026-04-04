@@ -17,7 +17,7 @@
   display: block;
   font-weight: bold;
   text-decoration: none;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   border-radius: 0.25rem;
   color: var(--color-text-primary);
   transition: background-color var(--transition-time-base) ease;
@@ -54,7 +54,7 @@
   }
 
   .navItemBtn {
-    font-size: var(--font-size-xsmall);
+    font-size: var(--font-size-xs);
     padding: var(--space-xs) var(--space-sm);
   }
 }
@@ -82,7 +82,7 @@
   }
 
   .list li a {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-md);
     padding: var(--space-sm) var(--space-md);
   }
 

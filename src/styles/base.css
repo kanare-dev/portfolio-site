@@ -43,11 +43,11 @@ h4 {
 }
 
 h3 {
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-lg);
 }
 
 h4 {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-md);
 }
 
 /* URL */
@@ -76,13 +76,13 @@ a:hover {
 
 /* セクション名 */
 .sec-en {
-  font-size: var(--font-size-xlarge);
+  font-size: var(--font-size-xl);
   margin-right: var(--space-sm);
   color: var(--color-text-primary);
 }
 
 .sec-ja {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-md);
   color: var(--color-text-secondary);
 }
 

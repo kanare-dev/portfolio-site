@@ -6,7 +6,7 @@
   display: block;
   font-weight: bold;
   text-decoration: none;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   border-radius: 0.25rem;
   color: var(--color-text-primary);
   transition: all var(--transition-time-base) ease;

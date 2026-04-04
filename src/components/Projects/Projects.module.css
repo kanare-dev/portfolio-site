@@ -102,7 +102,7 @@
 }
 
 .projectTitle {
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-lg);
   font-weight: 600;
   color: var(--color-text-primary);
   margin: 0;
@@ -116,7 +116,7 @@
 }
 
 .projectTitleJa {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
   margin: 0;
   padding: 0;
@@ -125,7 +125,7 @@
 
 /* プロジェクト説明 */
 .projectDescription {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
   margin: 0;
   padding: 0;
@@ -149,7 +149,7 @@
   display: inline-flex;
   align-items: center;
   padding: 0.25rem 0.75rem;
-  font-size: var(--font-size-xsmall);
+  font-size: var(--font-size-xs);
   font-weight: 600;
   color: var(--color-bg-surface);
   background: var(--color-accent);
@@ -180,7 +180,7 @@
   justify-content: center;
   gap: var(--space-xs);
   padding: var(--space-xs) var(--space-md);
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: 600;
   text-decoration: none;
   border-radius: 0.5rem;

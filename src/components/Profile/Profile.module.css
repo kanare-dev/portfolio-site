@@ -20,12 +20,12 @@
 }
 
 .nameJa {
-  font-size: var(--font-size-xlarge);
+  font-size: var(--font-size-xl);
   margin-bottom: -0.3125rem;
 }
 
 .nameEn {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
 }
 
@@ -48,7 +48,7 @@
 .detailItem {
   display: flex;
   margin: 0.5rem 0;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
 }
 
 .icon {
@@ -105,7 +105,7 @@
   display: flex;
   align-items: center;
   gap: var(--space-md);
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   color: var(--color-text-secondary);
 }
 
@@ -123,7 +123,7 @@
 }
 
 .sourceIcon {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-md);
   vertical-align: middle;
 }
 

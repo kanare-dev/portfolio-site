@@ -35,12 +35,12 @@
 }
 .purposeJa {
   font-weight: 700;
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-lg);
 }
 
 .purposeEn {
   color: var(--color-text-secondary);
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-style: italic;
 }
 
@@ -66,14 +66,14 @@
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-lg);
   flex-shrink: 0;
   transition: background-color var(--transition-time-base) ease,
     color var(--transition-time-base) ease;
 }
 
 .value p {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-md);
   color: var(--color-text-secondary);
   margin: 0;
 }

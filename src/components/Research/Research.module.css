@@ -14,7 +14,7 @@
 }
 
 .description {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   margin: var(--space-xs);
 }
 
@@ -34,17 +34,17 @@
 }
 
 .authors {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: bold;
 }
 
 .titleEn {
   font-style: italic;
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-md);
   color: var(--color-accent);
 }
 
 .venue {
   font-style: italic;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
 }

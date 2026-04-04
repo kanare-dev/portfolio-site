@@ -19,7 +19,7 @@
 }
 
 .date {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: 700;
   color: var(--color-accent);
   width: 71px;
@@ -78,7 +78,7 @@
 }
 
 .dateStart {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: 700;
   color: var(--color-accent);
   display: block;
@@ -87,7 +87,7 @@
 }
 
 .dateEnd {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: 700;
   color: var(--color-accent);
   display: block;
@@ -122,7 +122,7 @@
 }
 
 .description {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: normal;
   margin: 0.25rem 0;
   color: var(--color-text-secondary);
@@ -137,7 +137,7 @@
 
 .techTag {
   display: inline-block;
-  font-size: var(--font-size-xsmall);
+  font-size: var(--font-size-xs);
   font-weight: 600;
   padding: 0.25rem var(--space-sm);
   background: var(--color-bg-default);
@@ -167,7 +167,7 @@
 }
 
 .projectTitle {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: 700;
   color: var(--color-text-primary);
   margin: 0 0 var(--space-xs);
@@ -175,7 +175,7 @@
 
 .projectDate {
   display: block;
-  font-size: var(--font-size-xsmall);
+  font-size: var(--font-size-xs);
   color: var(--color-accent);
   font-weight: 600;
   margin-bottom: var(--space-xs);

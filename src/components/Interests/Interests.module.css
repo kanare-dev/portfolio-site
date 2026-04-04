@@ -4,7 +4,7 @@
 }
 
 .sectionTitle {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-md);
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--color-text-secondary);
@@ -64,7 +64,7 @@
   content: "\f10d";
   font-family: "FontAwesome";
   color: var(--color-accent);
-  font-size: var(--font-size-xlarge);
+  font-size: var(--font-size-xl);
   line-height: 1;
   font-weight: 900;
   transition: transform var(--transition-time-base) ease;

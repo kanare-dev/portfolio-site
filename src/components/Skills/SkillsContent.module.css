@@ -2,7 +2,7 @@
 
 /* スキル名 */
 .skillName {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: bold;
   display: inline-block;
   width: 8.25rem;
@@ -13,7 +13,7 @@
 @media (min-width: 900px) {
   .skillName {
     width: auto;
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-sm);
   }
 }
 
@@ -52,7 +52,7 @@
 
 /* レベルテキスト */
 .levelText {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: 600;
   color: var(--color-text-primary);
   min-width: 2.5rem;

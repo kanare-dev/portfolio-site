@@ -5,7 +5,7 @@
 }
 
 .heading {
-  font-size: var(--font-size-xlarge);
+  font-size: var(--font-size-xl);
   font-weight: 700;
   text-align: center;
   margin-bottom: var(--space-lg);
@@ -74,13 +74,13 @@
 }
 
 .title {
-  font-size: var(--font-size-large);
+  font-size: var(--font-size-lg);
   font-weight: 600;
   color: var(--color-text-primary);
 }
 
 .text {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-md);
   line-height: 1.6;
   color: var(--color-text-secondary);
 }

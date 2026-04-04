@@ -9,7 +9,7 @@
 }
 
 .title {
-  font-size: var(--font-size-base);
+  font-size: var(--font-size-md);
   font-weight: 600;
   color: var(--color-text-primary);
   margin: 0 0 var(--space-md) 0;
@@ -59,13 +59,13 @@
   padding: 0;
   background: transparent;
   color: var(--color-text-primary);
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: 600;
   margin-bottom: 0.25rem;
 }
 
 .levelTitle {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   font-weight: 600;
   color: var(--color-text-primary);
   margin-bottom: var(--space-xs);
@@ -73,7 +73,7 @@
 }
 
 .description {
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   line-height: 1.6;
   color: var(--color-text-secondary);
   margin: 0;
@@ -83,7 +83,7 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: var(--font-size-small);
+  font-size: var(--font-size-sm);
   line-height: 1.6;
   color: var(--color-text-secondary);
 }
