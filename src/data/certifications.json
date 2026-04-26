@@ -13,7 +13,8 @@
       { "name": "SAA-C03", "date": "2025.11" },
       { "name": "SOA-C03", "date": "2025.11" },
       { "name": "DVA-C02", "date": "2025.12" },
-      { "name": "SAP-C02", "date": "2026.02"}
+      { "name": "SAP-C02", "date": "2026.02" },
+      { "name": "DOP-C02", "date": "2026.04" }
     ]
   },
   {
