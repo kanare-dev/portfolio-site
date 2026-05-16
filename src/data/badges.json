@@ -1,18 +1,18 @@
 [
   {
-    "name": "AWS Certified DevOps Engineer – Professional",
-    "description": "Earners of this certification have an extensive understanding of implementing continuous delivery systems and methodologies on the AWS Cloud. They demonstrated the ability to automate resilient applications and infrastructure deployments using AWS services. Badge owners are able to enforce policies, implement automated monitoring, and configure event management of an environment.",
-    "image": "https://images.credly.com/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png",
-    "issuedOn": "2026-04-26T00:00:00Z",
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/dmN4cVJub0JXeXZVbSs4bUlqUk1tdz09",
-    "issuer": "Amazon Web Services Training and Certification"
-  },
-  {
     "name": "AWS Certified Solutions Architect – Professional",
     "description": "Earners of this certification have an extensive understanding of designing technical strategies to accomplish specific business goals. They demonstrated the ability to balance best practices and trade-offs based on business context. Badge owners are able to design solutions across multiple platforms and providers.",
     "image": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png",
     "issuedOn": "2026-02-01T00:00:00Z",
     "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/ZllZdlgzM2FyKzRQd0x5am5kYUR4Zz09",
+    "issuer": "Amazon Web Services Training and Certification"
+  },
+  {
+    "name": "AWS Certified DevOps Engineer – Professional",
+    "description": "Earners of this certification have an extensive understanding of implementing continuous delivery systems and methodologies on the AWS Cloud. They demonstrated the ability to automate resilient applications and infrastructure deployments using AWS services. Badge owners are able to enforce policies, implement automated monitoring, and configure event management of an environment.",
+    "image": "https://images.credly.com/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png",
+    "issuedOn": "2026-04-26T00:00:00Z",
+    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/dmN4cVJub0JXeXZVbSs4bUlqUk1tdz09",
     "issuer": "Amazon Web Services Training and Certification"
   },
   {
@@ -45,6 +45,14 @@
     "image": "https://images.credly.com/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png",
     "issuedOn": "2025-09-07T00:00:00Z",
     "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/NnlsK05jSVBTdU5xV01HNjRCaHdUdz09",
+    "issuer": "Amazon Web Services Training and Certification"
+  },
+  {
+    "name": "AWS Certified AI Practitioner",
+    "description": "Earners of this badge understand AI, ML, and generative AI concepts, methods, and strategies in general and on AWS. They can determine the correct types of AI/ML technologies to apply to specific use cases and know how to use AI, ML, and generative AI technologies responsibly. They are familiar with the AWS Global Infrastructure, core AWS services and use cases, AWS service pricing models, and the AWS shared responsibility model for security and compliance in the AWS Cloud.",
+    "image": "https://images.credly.com/images/4d4693bb-530e-4bca-9327-de07f3aa2348/image.png",
+    "issuedOn": "2026-05-16T00:00:00Z",
+    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/Zk5EczBNREN5Tm5pb0Qxb2VUSHJUQT09",
     "issuer": "Amazon Web Services Training and Certification"
   },
   {
