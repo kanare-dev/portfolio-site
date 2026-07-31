@@ -5,7 +5,6 @@
  */
 
 const API_BASE = "https://nlp.netlearning.co.jp/api/v1.0/openbadge/v2";
-const DELAY_MS = 500;
 
 async function fetchIssuerName(issuer) {
   if (!issuer) return null;
@@ -207,21 +206,4 @@ export async function fetchBadgeData(badgeUrl, note) {
       url: badgeUrl,
     };
   }
-}
-
-/**
- * badge-urls.json の配列を受け取り、完全なバッジデータ配列を返す
- * @param {Array<{url: string, note: string}>} badgeUrls
- * @returns {Promise<Array>}
- */
-export async function fetchAllBadges(badgeUrls) {
-  const results = [];
-
-  for (const { url, note } of badgeUrls) {
-    const data = await fetchBadgeData(url, note);
-    results.push(data);
-    await new Promise((resolve) => setTimeout(resolve, DELAY_MS));
-  }
-
-  return results;
 }

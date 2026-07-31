@@ -12,7 +12,8 @@
 import fs from "fs/promises";
 import path from "path";
 import { fileURLToPath } from "url";
-import { fetchAllBadges } from "../src/lib/badge-fetcher.js";
+import { fetchBadgeData } from "../src/lib/badge-fetcher.js";
+import { fetchCredlyBadge } from "../src/lib/credly-fetcher.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
@@ -20,11 +21,21 @@ const root = path.join(__dirname, "..");
 const badgeUrlsPath = path.join(root, "src/data/badge-urls.json");
 const outputPath = path.join(root, "src/data/badges.json");
 
-async function main() {
-  const badgeUrls = JSON.parse(await fs.readFile(badgeUrlsPath, "utf-8"));
-  console.log(`バッジ数: ${badgeUrls.length}`);
+const DELAY_MS = 500;
 
-  const results = await fetchAllBadges(badgeUrls);
+async function main() {
+  const entries = JSON.parse(await fs.readFile(badgeUrlsPath, "utf-8"));
+  console.log(`バッジ数: ${entries.length}`);
+
+  const results = [];
+  for (const entry of entries) {
+    const data =
+      entry.source === "credly"
+        ? await fetchCredlyBadge(entry.url, entry.note)
+        : await fetchBadgeData(entry.url, entry.note);
+    results.push(data);
+    await new Promise((resolve) => setTimeout(resolve, DELAY_MS));
+  }
 
   await fs.writeFile(outputPath, JSON.stringify(results, null, 2), "utf-8");
 

@@ -1,41 +1,61 @@
 [
   {
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/ZllZdlgzM2FyKzRQd0x5am5kYUR4Zz09",
+    "source": "credly",
+    "url": "https://www.credly.com/badges/8d641e39-ae3d-4417-bc39-b40107c47ed1/public_url",
     "note": "AWS Solutions Architect - Professional"
   },
   {
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/dmN4cVJub0JXeXZVbSs4bUlqUk1tdz09",
+    "source": "credly",
+    "url": "https://www.credly.com/badges/fae1c608-f9dd-45dc-b3ef-7a37ca990c3f/public_url",
     "note": "AWS Certified DevOps Engineer - Professional"
   },
   {
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/T3Vjelk1VnRybXI0cE5nRFVmeUhndz09",
+    "source": "credly",
+    "url": "https://www.credly.com/badges/284df3b6-bd14-491d-a8fa-e8e6930f693a/public_url",
     "note": "AWS Certified Solutions Architect - Associate"
   },
   {
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/YXovNzNGRi9OdGg4TFo2UTV2UEVodz09",
+    "source": "credly",
+    "url": "https://www.credly.com/badges/012ff38b-1d24-4a02-8045-d9e4ceba6445/public_url",
     "note": "AWS Certified CloudOps Engineer - Associate"
   },
   {
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/TGo2NFl0TzdHQnNUU251c0NSWVQxdz09",
+    "source": "credly",
+    "url": "https://www.credly.com/badges/65927f7c-aee8-4120-9173-fa1febc44253/public_url",
     "note": "AWS Certified Developer - Associate"
   },
   {
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/NnlsK05jSVBTdU5xV01HNjRCaHdUdz09",
+    "source": "credly",
+    "url": "https://www.credly.com/badges/eeab5ae7-afda-49ab-afa5-7aacc0a1a17f/public_url",
+    "note": "AWS Certified Data Engineer - Associate"
+  },
+  {
+    "source": "credly",
+    "url": "https://www.credly.com/badges/da21c059-6280-493f-899b-963eeced70d9/public_url",
+    "note": "AWS Certified Machine Learning Engineer - Associate"
+  },
+  {
+    "source": "credly",
+    "url": "https://www.credly.com/badges/fa683505-bd69-4bbe-b4c8-49de6ce4fbbb/public_url",
     "note": "AWS Certified Cloud Practitioner"
   },
   {
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/Zk5EczBNREN5Tm5pb0Qxb2VUSHJUQT09",
+    "source": "credly",
+    "url": "https://www.credly.com/badges/56d18010-8608-448a-901b-b8d59cc73545/public_url",
     "note": "AWS Certified AI Practitioner"
   },
   {
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/bzRpK2JlaXVVbWxTQVpIZFFRWHZGUT09",
+    "source": "credly",
+    "url": "https://www.credly.com/badges/c873c69f-dc24-4a1e-b44c-ee1d9eba2636/public_url",
     "note": "AWS Serverless Demonstrated"
   },
   {
-    "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/eGd5YU85NWwrNFUvdERwZ0NKU0FwUT09",
+    "source": "credly",
+    "url": "https://www.credly.com/badges/a1546cf2-f584-4f43-84e1-85f63227c573/public_url",
     "note": "Google Cloud Certified - Cloud Digital Leader"
   },
   {
+    "source": "netlearning",
     "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/amxPVHhhNWErYzI3d2p3KzZhS09RUT09",
     "note": "JDLA Deep Learning for GENERAL 2025 #4"
   }

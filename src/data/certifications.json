@@ -15,7 +15,9 @@
       { "name": "DVA-C02", "date": "2025.12" },
       { "name": "SAP-C02", "date": "2026.02" },
       { "name": "DOP-C02", "date": "2026.04" },
-      { "name": "AIF-C01", "date": "2026.05" }
+      { "name": "AIF-C01", "date": "2026.05" },
+      { "name": "DEA-C01", "date": "2026.07" },
+      { "name": "MLA-C01", "date": "2026.07" }
     ]
   },
   {
