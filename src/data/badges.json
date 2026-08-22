@@ -14,6 +14,13 @@
     "url": "https://www.credly.com/badges/fae1c608-f9dd-45dc-b3ef-7a37ca990c3f/public_url"
   },
   {
+    "name": "AWS Certified Advanced Networking – Specialty",
+    "description": "Earners of this certification have the ability to design and maintain network architecture for all AWS services. They demonstrated the ability to leverage tools to automate AWS networking tasks based on business needs. Badge owners are able to design and implement AWS and hybrid IT network architectures at scale.",
+    "image": "https://images.credly.com/images/4d08274f-64c1-495e-986b-3143f51b1371/image.png",
+    "issuedOn": "2026-08-22",
+    "url": "https://www.credly.com/badges/edc57132-a329-4c30-b7ae-17b5aaf4a060/public_url"
+  },
+  {
     "name": "AWS Certified Solutions Architect – Associate",
     "description": "Earners of this certification have a comprehensive understanding of AWS services and technologies. They demonstrated the ability to build secure and robust solutions using architectural design principles based on customer requirements. Badge owners are able to strategically design well-architected distributed systems that are scalable, resilient, efficient, and fault-tolerant.",
     "image": "https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png",
