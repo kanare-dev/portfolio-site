@@ -1,6 +1,11 @@
 [
   {
     "source": "credly",
+    "url": "https://www.credly.com/badges/edc57132-a329-4c30-b7ae-17b5aaf4a060/public_url",
+    "note": "AWS Certified Advanced Networking - Specialty"
+  },
+  {
+    "source": "credly",
     "url": "https://www.credly.com/badges/8d641e39-ae3d-4417-bc39-b40107c47ed1/public_url",
     "note": "AWS Solutions Architect - Professional"
   },
@@ -58,10 +63,5 @@
     "source": "netlearning",
     "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/amxPVHhhNWErYzI3d2p3KzZhS09RUT09",
     "note": "JDLA Deep Learning for GENERAL 2025 #4"
-  },
-  {
-    "source": "credly",
-    "url": "https://www.credly.com/badges/edc57132-a329-4c30-b7ae-17b5aaf4a060/public_url",
-    "note": "AWS Certified Advanced Networking - Specialty"
   }
 ]
