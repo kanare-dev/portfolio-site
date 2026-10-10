@@ -1,5 +1,12 @@
 [
   {
+    "name": "AWS Certified Advanced Networking – Specialty",
+    "description": "Earners of this certification have the ability to design and maintain network architecture for all AWS services. They demonstrated the ability to leverage tools to automate AWS networking tasks based on business needs. Badge owners are able to design and implement AWS and hybrid IT network architectures at scale.",
+    "image": "https://images.credly.com/images/4d08274f-64c1-495e-986b-3143f51b1371/image.png",
+    "issuedOn": "2026-08-22",
+    "url": "https://www.credly.com/badges/edc57132-a329-4c30-b7ae-17b5aaf4a060/public_url"
+  },
+  {
     "name": "AWS Certified Solutions Architect – Professional",
     "description": "Earners of this certification have an extensive understanding of designing technical strategies to accomplish specific business goals. They demonstrated the ability to balance best practices and trade-offs based on business context. Badge owners are able to design solutions across multiple platforms and providers.",
     "image": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png",
@@ -12,13 +19,6 @@
     "image": "https://images.credly.com/images/bd31ef42-d460-493e-8503-39592aaf0458/image.png",
     "issuedOn": "2026-04-26",
     "url": "https://www.credly.com/badges/fae1c608-f9dd-45dc-b3ef-7a37ca990c3f/public_url"
-  },
-  {
-    "name": "AWS Certified Advanced Networking – Specialty",
-    "description": "Earners of this certification have the ability to design and maintain network architecture for all AWS services. They demonstrated the ability to leverage tools to automate AWS networking tasks based on business needs. Badge owners are able to design and implement AWS and hybrid IT network architectures at scale.",
-    "image": "https://images.credly.com/images/4d08274f-64c1-495e-986b-3143f51b1371/image.png",
-    "issuedOn": "2026-08-22",
-    "url": "https://www.credly.com/badges/edc57132-a329-4c30-b7ae-17b5aaf4a060/public_url"
   },
   {
     "name": "AWS Certified Solutions Architect – Associate",
