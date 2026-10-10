@@ -6,21 +6,42 @@
     "title": "富士通株式会社",
     "descriptions": [
       "技術の社会実装を通して世の中に変化をもたらすことに関心を持ち、エンジニア職を選択。",
-      "クラウド/インフラ技術に特化した部門に所属。"
+      "クラウド/インフラ技術に特化した部門に所属。",
+      "AWS・Azure上のプラットフォーム基盤について、方式設計〜構築、コンテナ基盤の本番運用・性能改善・運用自動化まで担当。"
     ],
-    "technologies": ["AWS", "Linux", "IaC", "Java"],
+    "technologies": ["AWS", "Azure", "Linux", "IaC", "CloudFormation", "ECS/Fargate", "Java"],
     "projects": [
       {
-        "date": { "start": "2026.4" },
-        "title": "BtoBtoE（企業対従業員）健康管理・人的資本経営支援プラットフォーム（SaaS）の基盤（AWS）の設計・構築",
-        "descriptions": []
+        "date": { "start": "2026.8", "end": "2026.10" },
+        "title": "製造業向けDXプラットフォーム（Azure）の監視・ログ分析基盤の設計・構築・試験",
+        "descriptions": [
+          "インフラ主担当として、要件整理〜方式設計・詳細設計・構築・単体/結合試験までを一貫して担当。",
+          "監視要件を対象・責任範囲ごとに分解し、顧客・複数ベンダー間の責任分界を明確化。ログ収集不具合ではVM側まで調査範囲を広げて原因を特定・解消。"
+        ],
+        "technologies": [
+          "Azure", "Azure Monitor", "Log Analytics", "Data Collection Rule", "Private Link", "KQL",
+          "Microsoft Entra ID", "Azure RBAC", "Virtual Machines", "Storage Account"
+        ]
+      },
+      {
+        "date": { "start": "2026.4", "end": "2026.7" },
+        "title": "BtoBtoE（企業対従業員）健康管理・人的資本経営支援プラットフォーム（SaaS）のAWS基盤の構築・運用改善",
+        "descriptions": [
+          "サービスインフラチームの一員として、ECS/Fargateを中心としたコンテナ基盤の本番運用・非機能要件検証・リリース作業に従事。",
+          "k6による性能試験の結果をもとにECS Service Auto Scalingを設計・導入（同時利用700ユーザー・p95 3秒以内の要件に対応）。EventBridge Scheduler・Lambda・SESで月次の定型業務を自動化。"
+        ],
+        "technologies": [
+          "AWS", "CloudFormation", "ECS", "Fargate", "ECR", "Aurora PostgreSQL",
+          "Lambda", "EventBridge Scheduler", "SES", "Route 53", "CloudFront", "API Gateway",
+          "WAF", "GuardDuty", "KMS", "CloudWatch", "k6"
+        ]
       },
       {
         "date": { "start": "2025.8", "end": "2026.3"},
         "title": "車載機器向けパッケージ配信基盤（AWS）の設計・構築",
         "descriptions": [
           "車載機器向けパッケージ配信基盤を支えるAWS環境について、方式設計〜詳細設計〜IaC (CloudFormation) 実装を担当。",
-          "並行してAWSを学習し、SAA/SOA/DVA/SAP資格を取得。"
+          "SharePointで管理していたCloudFormationテンプレートをAzure DevOpsリポジトリへ移行し、cfn-lintをAzure Pipelinesで自動実行するIaC運用体制を整備。"
         ],
         "technologies": [
           "AWS", "CloudFormation", "IaC", "GitHub Copilot", 
@@ -29,8 +50,8 @@
           "Aurora",
           "S3", "EFS", "EBS",
           "Security Hub", "GuardDuty", "Inspector", "KMS", "ACM", "IAM", "WAF", "Config",
-          "Config", "SNS", "Systems Manager", "CloudWatch", "CloudTrail", 
-          "Azure DevOps", "Git", "RHEL"
+          "SNS", "Systems Manager", "CloudWatch", "CloudTrail",
+          "Azure DevOps", "Azure Pipelines", "cfn-lint", "Git", "RHEL"
         ]
       }
     ]
@@ -43,7 +64,9 @@
     "title": "東京科学大学大学院 工学院 情報通信系 情報通信コース",
     "descriptions": [
       "情報通信工学を専攻し、無線センシング、機械学習、信号処理に重点を置いた課程を修了。",
-      "西尾研究室に所属し、Wi-FiのCSIを用いた管状物体の変形推定に取り組み、ソフトロボットにおける触覚センシングのために、CSIデータから物体形状を二値画像として予測する深層学習モデルを開発。"
+      "西尾研究室に所属し、Wi-FiのCSIを用いた管状物体の変形推定に取り組み、ソフトロボットにおける触覚センシングのために、CSIデータから物体形状を二値画像として予測する深層学習モデルを開発。",
+      "研究成果をIEEE CCNC 2025（Las Vegas）で発表し、優秀構想発表賞を受賞。",
+      "分散機械学習デモ（PyTorch）の開発を担当し、CEATEC 2023・IEEE CCNC 2024で展示。学部1年向け機械学習入門講義のTAも担当。"
     ],
     "technologies": [
       "Python",
