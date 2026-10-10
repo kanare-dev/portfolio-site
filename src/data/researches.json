@@ -1,7 +1,7 @@
 [
   {
     "title": "Wireless Sensingによる触覚センシング (2025.1)",
-    "description": "WiFiのCSI（Channel State Information）を用い、人や物体の動き・変形を非接触でセンシングする研究に取り組みました。<br />筒状物体の変形推定に関する成果を以下の国際会議にて発表しました。",
+    "description": "WiFiのCSI（Channel State Information）を用い、人や物体の動き・変形を非接触でセンシングする研究に取り組みました。<br />本研究の構想発表では、学内の優秀構想発表賞を受賞しました（<a href=\"https://educ.titech.ac.jp/ict/news/2024_01/065392.html\" target=\"_blank\" rel=\"noopener noreferrer\">受賞ニュース</a>）。<br />筒状物体の変形推定に関する成果を以下の国際会議にて発表しました。",
     "authors": "K. Kodera and T. Nishio,",
     "title_en": "Estimating deformation of tubular object from WiFi CSI toward tactile sensing,",
     "venue": "in Proceedings of the 2025 IEEE 22nd Consumer Communications & Networking Conference (CCNC)",
