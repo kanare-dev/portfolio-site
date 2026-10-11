@@ -1,6 +1,7 @@
+import Image from "next/image";
 import styles from "./Career.module.css";
 
-export default function CareerItem({ date, title, descriptions = [], technologies = [], projects = [] }) {
+export default function CareerItem({ date, title, logo, descriptions = [], technologies = [], projects = [] }) {
   // dateがオブジェクト形式（期間）か文字列形式（単一時点）かを判定
   const renderDate = (date) => {
     if (typeof date === "string") {
@@ -32,7 +33,14 @@ export default function CareerItem({ date, title, descriptions = [], technologie
     <li className={styles.item}>
       {renderDate(date)}
       <div className={styles.event}>
-        <p className={styles.title}>{title}</p>
+        <div className={styles.header}>
+          {logo && (
+            <span className={styles.logoChip}>
+              <Image src={logo} alt={`${title} ロゴ`} width={40} height={40} />
+            </span>
+          )}
+          <p className={styles.title}>{title}</p>
+        </div>
         {descriptions.map((desc, i) => (
           <p key={i} className={styles.description}>
             {desc}
