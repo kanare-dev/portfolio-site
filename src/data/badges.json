@@ -84,6 +84,20 @@
     "url": "https://www.credly.com/badges/c873c69f-dc24-4a1e-b44c-ee1d9eba2636/public_url"
   },
   {
+    "name": "AWS Incident Response Demonstrated",
+    "description": "Earners of this badge have passed the AWS Incident Response Demonstrated exam lab. Passing this microcredential assessment represents a proficiency in identifying, containing, and remediating common AWS security incidents. Recipients completed timed challenges stemming from a simulated business scenario in a hands-on AWS environment.",
+    "image": "https://images.credly.com/images/8dd6f516-0dd3-4b5e-aacf-8e86e737a95d/blob",
+    "issuedOn": "2026-08-03",
+    "url": "https://www.credly.com/badges/e9d590d9-0fad-41e8-9247-f61e01897428/public_url"
+  },
+  {
+    "name": "AWS Application Networking Demonstrated",
+    "description": "Earners of this badge have passed the AWS Application Networking Demonstrated exam lab. Passing this microcredential assessment represents a proficiency in core tasks related to application delivery, performance optimization, and modern application architecture implementation. Recipients completed timed challenges stemming from a simulated business scenario in a hands-on AWS environment.",
+    "image": "https://images.credly.com/images/ed8cf03b-6269-4265-a65b-68e67e49ce6b/blob",
+    "issuedOn": "2026-08-04",
+    "url": "https://www.credly.com/badges/233cdde4-8a26-4d81-a962-511c3026a4a5/public_url"
+  },
+  {
     "name": "Cloud Digital Leader",
     "description": "Cloud Digital Leader は、Google Cloud の中核的なプロダクトやサービスの機能と、それらが組織にもたらすメリットを明確にできます。また、Cloud Digital Leader は、一般的なビジネス ユースケースや、クラウド ソリューションが企業をどのように支えているかを説明することができます。この認定資格は、クラウド コンピューティングの基礎に関する知識と、組織の目標を達成するための Google Cloud プロダクトとサービスの使用方法に関する知識があることを示す必要があるすべての方を対象としています。",
     "image": "https://images.credly.com/images/300d4058-0dbd-47b1-96ad-63ff89e41d2b/image.png",

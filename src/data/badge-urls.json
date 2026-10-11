@@ -61,6 +61,16 @@
   },
   {
     "source": "credly",
+    "url": "https://www.credly.com/badges/e9d590d9-0fad-41e8-9247-f61e01897428/public_url",
+    "note": "AWS Incident Response Demonstrated"
+  },
+  {
+    "source": "credly",
+    "url": "https://www.credly.com/badges/233cdde4-8a26-4d81-a962-511c3026a4a5/public_url",
+    "note": "AWS Application Networking Demonstrated"
+  },
+  {
+    "source": "credly",
     "url": "https://www.credly.com/badges/a1546cf2-f584-4f43-84e1-85f63227c573/public_url",
     "note": "Google Cloud Certified - Cloud Digital Leader"
   },
