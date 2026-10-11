@@ -37,7 +37,7 @@ async function main() {
     await new Promise((resolve) => setTimeout(resolve, DELAY_MS));
   }
 
-  await fs.writeFile(outputPath, JSON.stringify(results, null, 2), "utf-8");
+  await fs.writeFile(outputPath, JSON.stringify(results, null, 2) + "\n", "utf-8");
 
   console.log(`\n完了: ${results.length}件 → ${outputPath}`);
   results.forEach((b, i) =>
