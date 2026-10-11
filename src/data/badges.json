@@ -7,6 +7,13 @@
     "url": "https://www.credly.com/badges/edc57132-a329-4c30-b7ae-17b5aaf4a060/public_url"
   },
   {
+    "name": "AWS Certified Security – Specialty",
+    "description": "Earners of this certification have an in-depth understanding of AWS security services and the shared responsibility model (between AWS and the customer). They demonstrated the ability to design, implement, and troubleshoot various security models in the AWS Cloud. Badge owners can leverage various security models for organizations of all sizes.",
+    "image": "https://images.credly.com/images/53acdae5-d69f-4dda-b650-d02ed7a50dd7/image.png",
+    "issuedOn": "2026-10-11",
+    "url": "https://www.credly.com/badges/92d2fe26-4b41-41c7-83dd-946fa2720025/public_url"
+  },
+  {
     "name": "AWS Certified Solutions Architect – Professional",
     "description": "Earners of this certification have an extensive understanding of designing technical strategies to accomplish specific business goals. They demonstrated the ability to balance best practices and trade-offs based on business context. Badge owners are able to design solutions across multiple platforms and providers.",
     "image": "https://images.credly.com/images/2d84e428-9078-49b6-a804-13c15383d0de/image.png",
