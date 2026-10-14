@@ -75,7 +75,13 @@ export default function HomePage() {
       <Navbar />
       <div id="top" style={{ height: "1px", position: "absolute", top: 0 }} />
       <div style={{ flex: 1, display: "flex", flexDirection: "column" }}>
-        <AnimatePresence mode="wait">
+        {/* 前のタブの退場後に先頭へ戻す（base.css の smooth を無視して即時移動） */}
+        <AnimatePresence
+          mode="wait"
+          onExitComplete={() =>
+            window.scrollTo({ top: 0, left: 0, behavior: "instant" })
+          }
+        >
           <motion.main
             key={activeSection}
             className="profile-page"
