@@ -78,5 +78,10 @@
     "source": "netlearning",
     "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/amxPVHhhNWErYzI3d2p3KzZhS09RUT09",
     "note": "JDLA Deep Learning for GENERAL 2025 #4"
+  },
+  {
+    "source": "credly",
+    "url": "https://www.credly.com/badges/c1af5bd8-33ad-40de-874c-3d25a8006510/public_url",
+    "note": "Claude Certified Architect - Foundations"
   }
 ]
