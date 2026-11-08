@@ -1,5 +1,12 @@
 [
   {
+    "name": "Claude Certified Architect - Foundations",
+    "description": "The Claude Certified Architect – Foundations credential is designed for solution architects. Earners can design and build production-grade applications with Claude using Claude Code, the Claude Agent SDK, the Claude API, and MCP.",
+    "image": "https://images.credly.com/images/f2040db3-3904-4240-8966-e87b1510bea0/blob",
+    "issuedOn": "2026-11-07",
+    "url": "https://www.credly.com/badges/c1af5bd8-33ad-40de-874c-3d25a8006510/public_url"
+  },
+  {
     "name": "AWS Certified Advanced Networking – Specialty",
     "description": "Earners of this certification have the ability to design and maintain network architecture for all AWS services. They demonstrated the ability to leverage tools to automate AWS networking tasks based on business needs. Badge owners are able to design and implement AWS and hybrid IT network architectures at scale.",
     "image": "https://images.credly.com/images/4d08274f-64c1-495e-986b-3143f51b1371/image.png",
@@ -111,12 +118,5 @@
     "issuedOn": "2025-08-08T00:00:00+09:00",
     "url": "https://www.openbadge-global.com/api/v1.0/openBadge/v2/Wallet/Public/GetAssertionShare/amxPVHhhNWErYzI3d2p3KzZhS09RUT09",
     "issuer": "一般社団法人　日本ディープラーニング協会"
-  },
-  {
-    "name": "Claude Certified Architect - Foundations",
-    "description": "The Claude Certified Architect – Foundations credential is designed for solution architects. Earners can design and build production-grade applications with Claude using Claude Code, the Claude Agent SDK, the Claude API, and MCP.",
-    "image": "https://images.credly.com/images/f2040db3-3904-4240-8966-e87b1510bea0/blob",
-    "issuedOn": "2026-11-07",
-    "url": "https://www.credly.com/badges/c1af5bd8-33ad-40de-874c-3d25a8006510/public_url"
   }
 ]
